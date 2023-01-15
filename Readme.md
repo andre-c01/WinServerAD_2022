@@ -75,7 +75,14 @@ Netsh interface ip add dns "Ethernet" "ipaddr" index=2
 ### :small_orange_diamond:Create User
 **Tools -> Active Directory Users and Computers**
 
-![](gifs/promote_server.gif)
+![](gifs/create_user.gif)
+
+##
+
+### :small_orange_diamond:Set LogOn Hours
+**Tools -> Active Directory Users and Computers -> (User Properties)**
+
+![](gifs/logonhours.gif)
 
 *Change Sys Name
 
