@@ -13,6 +13,13 @@ Rename-Computer -NewName "Sys Name" -restart
 
 ##
 
+### :small_orange_diamond:**Set timezone**
+```shell
+Set-TimeZone -Id  'Azores Standard Time'
+```
+
+##
+
 ### :small_orange_diamond:**Set Network Profile To Private**
 ```shell
 Set-NetConnectionProfile -InterfaceAlias Ethernet -NetworkCategory "Private"
@@ -54,7 +61,7 @@ Netsh interface ip add dns "Ethernet" "ipaddr" index=2
 ![](gifs/Ethernet_Properties.gif)
 
 ![](gifs/IPV4_Properties.gif)
-![](gifs/IPV4_Properties_2.gif)
+![](gifs/server_ip.gif)
 
 ##
 
@@ -84,8 +91,6 @@ Netsh interface ip add dns "Ethernet" "ipaddr" index=2
 
 ![](gifs/logonhours.gif)
 
-*Change Sys Name
 
-*Stop remote auth to specific users
 
 ---
