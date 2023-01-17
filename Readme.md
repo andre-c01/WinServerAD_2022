@@ -92,5 +92,4 @@ Netsh interface ip add dns "Ethernet" "ipaddr" index=2
 ![](gifs/logonhours.gif)
 
 
-
 ---
