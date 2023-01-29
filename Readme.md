@@ -68,6 +68,8 @@ Netsh interface ip add dns "Ethernet" "ipaddr" index=2
 ### :small_orange_diamond:Install Active Directory
 **Manage -> Add Roles and Features -> (Before You Begin)Next -> (Install Type )Role-Based -> (Server Selection)Next -> (Server Roles)Select 'Active Directory Domain Services' & Next -> (Features)Next -> (Confirmation)Next -> (Results)Install & \Wait**
 
+**Nota: Em Server Roles Selecionar Tambem DHCP Server**
+
 ![](gifs/roles_and_features.gif)
 
 ##
@@ -76,6 +78,27 @@ Netsh interface ip add dns "Ethernet" "ipaddr" index=2
 **Notifications -> Promote this Server to a Domain Controler**
 
 ![](gifs/promote_server.gif)
+
+##
+
+### :small_orange_diamond:Config DHCP SERVER
+**Notifications -> Configure DHCP Server**
+
+![](gifs/dhcp_setup.gif)
+
+##
+
+### :small_orange_diamond:ADD DHCP SCOPE
+**Tools -> DHCP**
+
+![](gifs/scope_create.gif)
+
+##
+
+### :small_orange_diamond:Create Group
+**Tools -> Active Directory Users and Computers**
+
+![](gifs/create_group.gif)
 
 ##
 
@@ -91,5 +114,28 @@ Netsh interface ip add dns "Ethernet" "ipaddr" index=2
 
 ![](gifs/logonhours.gif)
 
+##
 
+### :small_orange_diamond:Set Home Folder Hours
+**Tools -> Active Directory Users and Computers -> (User Properties)**
+
+![](gifs/user_home_folder.gif)
+
+##
+
+### :small_orange_diamond:Share Config
+**(Properties of Share Folder) -> Share**
+
+![](gifs/folder_share.gif)
+
+##
+
+### :small_orange_diamond:Share Security Config
+**(Properties of Share Folder) -> Security**
+
+![](gifs/permissions.gif)
+
+##
+
+mm
 ---
